@@ -1,0 +1,215 @@
+.nav-header .brand-logo img {
+    width: 180px;
+
+}
+
+.icon-img-bxs{
+    padding: 10px;
+    background: #0099FF;
+    border-radius: 5px;
+
+}
+
+.icon-img-bxs i{
+color: white;
+font-size: 18px;
+}
+
+
+ 
+
+ 
+ 
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  /* Aligns items vertically */
+}
+
+.red-light {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+    animation: blink 0.5s infinite alternate; /* Faster blink speed */
+    border: 2px solid rgb(85, 74, 74); /* White border */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* White shadow */
+}
+
+.green-light {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: green;
+    animation: blink 0.5s infinite alternate; /* Faster blink speed */
+    border: 2px solid rgb(85, 74, 74); /* White border */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* White shadow */
+}
+
+.pk .text {
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+    
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.movile_title{
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    display: none !important;
+}
+
+ 
+
+ 
+  
+  @media (min-width: 768px) {
+    .movile_title{
+      display: block !important; /* Show on screens 768px and above */
+    }
+  }
+  
+  
+  .p-2 h2{
+    font-size: 15px;
+  }
+
+  .avatar  i{
+    color: var(--primary);
+    font-size: 38px;
+  }
+
+  .pk{
+    display: none !important;
+  }
+  .dashboardbar{
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+
+  }
+
+  .train-trip {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.train-trip p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.station {
+    margin-right: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.stations h3{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.train-image {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+
+
+.train-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.train-image {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.location-icon {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: green;
+    font-size: 20px;
+}
+
+.station p {
+    margin: 5px 0;
+}
+
+.train-trip {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+.train-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.train-image {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.location-icon {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: green;
+    font-size: 20px;
+    animation: float-up-down 1.5s ease-in-out infinite; /* Apply animation */
+}
+
+/* Floating animation */
+@keyframes float-up-down {
+    0% {
+        transform: translate(-50%, 0); /* Starting position */
+    }
+    50% {
+        transform: translate(-50%, -10px); /* Move up */
+    }
+    100% {
+        transform: translate(-50%, 0); /* Back to original position */
+    }
+}
+
+.station p {
+    margin: 5px 0;
+}
+
+.train-trip {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.stylebn h4{
+    font-size: 12px;
+}
